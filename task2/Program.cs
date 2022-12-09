@@ -17,4 +17,4 @@ else
 {
     max = b;
 }
-Console.Write("a = " + a + ", b = " + b + " -> max = " + max);
+Console.Write("a = " + a + "; b = " + b + " -> max = " + max);
