@@ -9,12 +9,5 @@ int a = int.Parse(Console.ReadLine());
 Console.Write("Введите число b: ");
 int b = int.Parse(Console.ReadLine());
 int max = a;
-if (a>=b)
-{
-    max = a;
-}
-else 
-{
-    max = b;
-}
+if (b>=max) max=b;
 Console.Write("a = " + a + "; b = " + b + " -> max = " + max);
